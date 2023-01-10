@@ -1,9 +1,9 @@
 `timescale 1ns/1ps
 module real_dual_port_ram_tb ();
-reg          clk,wea,enb     ; 
-reg   [7:0]  addra,addrb                   ;
-reg   [15:0] data_i_a            ;
-reg   [15:0] data_o_b             ;
+reg          clk,wea,enb                    ; 
+reg   [7:0]  addra,addrb                    ;
+reg   [15:0] data_i_a                       ;
+reg   [15:0] data_o_b                       ;
 
 always #5 clk = ~clk;
 
