@@ -1,0 +1,243 @@
+$date
+	Wed Jan 11 00:48:46 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module real_dual_port_ram_tb $end
+$var wire 16 ! data_o_b [15:0] $end
+$var wire 16 " data_o_a [15:0] $end
+$var reg 8 # addra [7:0] $end
+$var reg 8 $ addrb [7:0] $end
+$var reg 1 % clka $end
+$var reg 1 & clkb $end
+$var reg 16 ' data_i_a [15:0] $end
+$var reg 16 ( data_i_b [15:0] $end
+$var reg 1 ) ena $end
+$var reg 1 * enb $end
+$var reg 1 + wea $end
+$var reg 1 , web $end
+$scope module inst_DPRAM $end
+$var wire 8 - addra [7:0] $end
+$var wire 8 . addrb [7:0] $end
+$var wire 1 % clka $end
+$var wire 1 & clkb $end
+$var wire 16 / data_i_a [15:0] $end
+$var wire 16 0 data_i_b [15:0] $end
+$var wire 1 ) ena $end
+$var wire 1 * enb $end
+$var wire 1 + wea $end
+$var wire 1 , web $end
+$var reg 16 1 data_o_a [15:0] $end
+$var reg 16 2 data_o_b [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+x,
+x+
+x*
+x)
+bx (
+bx '
+0&
+0%
+bx $
+bx #
+bx "
+bx !
+$end
+#50
+1&
+1%
+#100
+0&
+0%
+#150
+1&
+1%
+#200
+0&
+0%
+#250
+b1010 (
+b1010 0
+b1001 '
+b1001 /
+b1 $
+b1 .
+b0 #
+b0 -
+1,
+1+
+1*
+1)
+1&
+1%
+#300
+0&
+0%
+#350
+1&
+1%
+#400
+0&
+0%
+#450
+b1010 !
+b1010 2
+b1001 "
+b1001 1
+b111 (
+b111 0
+b111 '
+b111 /
+b11 $
+b11 .
+b10 #
+b10 -
+1&
+1%
+#500
+0&
+0%
+#550
+bx !
+bx 2
+bx "
+bx 1
+1&
+1%
+#600
+0&
+0%
+#650
+b111 !
+b111 2
+b111 "
+b111 1
+b1000 (
+b1000 0
+b110 '
+b110 /
+b101 $
+b101 .
+b100 #
+b100 -
+1&
+1%
+#700
+0&
+0%
+#750
+bx !
+bx 2
+bx "
+bx 1
+1&
+1%
+#800
+0&
+0%
+#850
+b1000 !
+b1000 2
+b110 "
+b110 1
+b0 (
+b0 0
+b0 '
+b0 /
+b11 $
+b11 .
+b10 #
+b10 -
+1&
+1%
+#900
+0&
+0%
+#950
+b111 !
+b111 2
+b111 "
+b111 1
+1&
+1%
+#1000
+0&
+0%
+#1050
+b0 !
+b0 2
+b0 "
+b0 1
+1&
+1%
+#1100
+0&
+0%
+#1150
+1&
+1%
+#1200
+0&
+0%
+#1250
+1&
+1%
+#1300
+0&
+0%
+#1350
+1&
+1%
+#1400
+0&
+0%
+#1450
+1&
+1%
+#1500
+0&
+0%
+#1550
+1&
+1%
+#1600
+0&
+0%
+#1650
+1&
+1%
+#1700
+0&
+0%
+#1750
+1&
+1%
+#1800
+0&
+0%
+#1850
+1&
+1%
+#1900
+0&
+0%
+#1950
+1&
+1%
+#2000
+0&
+0%
