@@ -12,10 +12,10 @@ initial begin
     #25
     wea<=1;enb<=1;addra<=8'd0;addrb<=8'd0;data_i_a<=16'd9;
     #20
-    wea<=1;enb<=1;addra<=8'd1;addrb<=8'd1;data_i_a<=16'd9;
+    wea<=1;enb<=1;addra<=8'd1;addrb<=8'd1;data_i_a<=16'd2;
     #20
-    wea<=1;enb<=1;addra<=8'd2;addrb<=8'd2;data_i_a<=16'd9;
+    wea<=1;enb<=1;addra<=8'd2;addrb<=8'd2;data_i_a<=16'd7;
     #20
-    wea<=1;enb<=1;addra<=8'd3;addrb<=8'd3;data_i_a<=16'd9;
+    wea<=1;enb<=1;addra<=8'd3;addrb<=8'd3;data_i_a<=16'd7;
 end
 endmodule
