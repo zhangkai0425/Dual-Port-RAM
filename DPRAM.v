@@ -29,7 +29,7 @@ always @(posedge clk) begin
     end
 end
 
-always @(posedge clk) begin     //write channel
+always @(posedge clk) begin     
     if(enb) begin
         if(wea) begin
             RAM[addrb] <= data_i_b;
