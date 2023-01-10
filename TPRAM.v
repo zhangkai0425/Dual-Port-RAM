@@ -1,10 +1,10 @@
-// implementation of two-port-ram
+// implementation of two-port-ram(Fake)
 
 module TPRAM (
     input clk,
 
     input wea,                  //enable write signal of channel a
-    input enb,                  //enable read signal of channel b
+    input enb,                  //enable signal of channel b
 
     input [7:0] addra,          //address of channel a
     input [7:0] addrb,          //address of channle b
@@ -16,13 +16,13 @@ reg [15:0] RAM [255:0];         //DATAWIDTH = 16, DEPTH = 256 = 2^8
 
 always @(posedge clk) begin     //write channel
     if(wea) begin
-        ram[addra] <= data_i_a;
+        RAM[addra] <= data_i_a;
     end
 end
 
 always @(posedge clk) begin    //read channel
     if(enb) begin
-        data_o_b <= ram[addrb]
+        data_o_b <= RAM[addrb]
     end
 end
 endmodule
