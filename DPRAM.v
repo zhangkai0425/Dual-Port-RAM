@@ -1,7 +1,8 @@
 // implementation of dual-port-ram(Real)
 
 module DPRAM (
-    input clk,
+    input clka,
+    input clkb,
 
     input ena,                  //enable signal of channel a
     input enb,                  //enable signal of channel b
