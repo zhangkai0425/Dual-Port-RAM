@@ -1,6 +1,6 @@
-// implementation of simple dual port ram
+// implementation of two-port-ram
 
-module simple_dual_port_ram (
+module TPRAM (
     input clk,
 
     input wea,                  //enable write signal of channel a
